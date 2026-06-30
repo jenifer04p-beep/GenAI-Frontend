@@ -61,7 +61,7 @@ export default function Home() {
               </div>
             ) : (
               <div className="badge">
-                <span className="dot" /> Welcome to Gidy
+                <span className="dot" /> Welcome to GenAI
               </div>
             )}
 
@@ -94,7 +94,7 @@ export default function Home() {
                   Create Account
                 </Button>
                 <div className="miniCopy">
-                  Join GidyAI and start your journey today.
+                  Join GenAI and start your journey today.
                 </div>
               </div>
             )}

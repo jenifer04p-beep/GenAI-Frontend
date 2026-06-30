@@ -7,14 +7,14 @@ export default function Footer() {
         <div className="footerBrand">
           <img className="footerLogo" src={logo} alt="GidyAI" />
           <div>
-            <div className="footerTitle">GidyAI</div>
+            <div className="footerTitle">GenAI</div>
             <div className="footerText">
               A friendly platform to explore jobs, hackathons, projects, and ATS insights.
             </div>
             <div className="footerLinks">
               <a className="footerLink" href="#">Terms</a>
               <a className="footerLink" href="#">Privacy</a>
-              <a className="footerLink" href="mailto:help@gidy.ai">help@gidy.ai</a>
+              <a className="footerLink" href="mailto:help@gidy.ai">help@gen.ai</a>
             </div>
           </div>
         </div>

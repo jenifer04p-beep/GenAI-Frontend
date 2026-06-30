@@ -54,14 +54,14 @@ export default function About() {
             </h1>
 
             <p className="pageSub">
-              GidyAI helps you explore jobs, compete in hackathons, ship projects, and improve your ATS readiness —
+              GenAI helps you explore jobs, compete in hackathons, ship projects, and improve your ATS readiness —
               without confusing flows.
             </p>
 
             {/* 🔥 CONDITIONAL BUTTON */}
             {!user && (
               <Button onClick={() => navigate("/signup")}>
-                Join GidyAI
+                Join GenAI
               </Button>
             )}
           </div>
@@ -102,7 +102,7 @@ export default function About() {
           <Card className="contactCard">
             <div>
               <div className="panelTitle">Contact</div>
-              <div className="muted">Email: help@gidy.ai</div>
+              <div className="muted">Email: help@gen.ai</div>
 
               {/* 🔥 PERSONAL TOUCH */}
               {user && (

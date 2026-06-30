@@ -82,7 +82,7 @@ export default function Navbar() {
         {/* LEFT */}
         <div className="brand" onClick={() => navigate("/")}>
           <img className="brandLogo" src={logo} alt="logo" />
-          <span className="brandText">GidyAI</span>
+          <span className="brandText">GenAI</span>
         </div>
 
         {/* CENTER */}
